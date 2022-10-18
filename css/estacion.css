@@ -1,0 +1,101 @@
+
+body{
+
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+}
+
+#chipid{
+	display: none;
+}
+
+.contenedor{
+	overflow: hidden;
+	border-radius:15px;   
+	width: 30%;
+	height: 50%;
+	background-color: red;
+}
+
+
+
+
+.info{
+	height:40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.nombre{
+	height: 50%;
+	background-color:black;
+	background-color:#B2BCAA; 
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 25pt;
+}
+
+.fecha{
+	height: 50%	;
+	background-color:yellow;
+	background-color:#C9CEBD; 
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 17pt;
+}
+
+
+
+.info1{
+	height:60%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+.temperatura{
+	width: 50%;
+	background-color:black;
+	background-color:#B2BCAA; 
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 25pt;
+}
+
+.humedad{
+	width: 50%;
+	background-color:#B2BCAA; 
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	border-left: solid 1px grey;
+	font-size: 25pt;
+}
+
+@media (max-width: 600px) {
+
+ 
+
+    .contenedor {
+    overflow: hidden;
+    border-radius: 15px;
+    width: 95%;
+    height: 85%;
+    background-color: red;
+    }
+
+  }

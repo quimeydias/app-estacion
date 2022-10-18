@@ -1,0 +1,66 @@
+body{
+
+font-family: 'Oswald', sans-serif;	
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.card{
+
+    height: 200px;
+    width: 15%;
+    margin-bottom: 9px;
+    margin-left: 9px;
+    background-color: #838E83;
+    border-radius: 5%;
+    text-align: center;
+    overflow: hidden;
+    float:left;
+    box-shadow: 1px 2px 3px 2px black;
+
+}
+.card__title{
+     text-align: center;
+     overflow: hidden;
+     background-color:#B2BCAA;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     height: 20%;
+}
+
+.card__ubicacion{
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:#C9CEBD;
+     height: 70%;
+
+}
+
+
+
+@media (max-width: 600px) {
+
+ 
+
+    .card{
+         display: flex;
+         float: unset;
+         flex-direction: column;
+         height: 20%;
+         width: 100%;
+         border-top-left-radius: revert;
+         border-top-right-radius: revert;
+         border-bottom-right-radius: revert;
+         border-bottom-left-radius: revert;
+         margin: auto;
+     }
+
+  }
